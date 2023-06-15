@@ -71,7 +71,14 @@ chaos:
       repository: false
       rest-controller: false
       service: false
-
+---
+spring:
+  cache:
+    type: redis
+  data:
+    redis:
+      host: otelpoc.redis.cache.windows.net
+      password: 3N8ZhQRVQgy4MSECyaisASLfyUykrGEM0AzCaBIe3Xg=
 ---
 spring:
   config:
