@@ -78,7 +78,7 @@ spring:
   data:
     redis:
       host: otelpoc.redis.cache.windows.net
-      password: 3N8ZhQRVQgy4MSECyaisASLfyUykrGEM0AzCaBIe3Xg=
+      password: oOJBBDDnH44cZ8KtlCwunIY1A9Rd1FaOZAzCaLRKGAY=
 ---
 spring:
   config:
