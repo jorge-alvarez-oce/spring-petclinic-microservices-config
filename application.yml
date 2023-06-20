@@ -26,7 +26,6 @@ spring:
     hibernate:
       ddl-auto: none
       
-logging.level.org.springframework.cache: debug
 
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
@@ -39,8 +38,11 @@ spring.cloud.refresh.refreshable: false
 
 
 # Logging
-logging.level.org.springframework: INFO
-
+logging.level:
+  org.springframework: INFO
+  org.springframework.cache: DEBUG
+  org.springframework.data.redis: DEBUG
+  
 # Metrics
 management:
   endpoint:
