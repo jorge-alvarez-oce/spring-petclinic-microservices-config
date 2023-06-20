@@ -3,6 +3,11 @@
     ttl: 60
     heap-size: 100
 
+logging.level:
+  org.springframework: INFO
+  org.springframework.cache: TRACE
+  org.springframework.data.redis: TRACE
+  org.springframework.data.redis.cache: TRACE
 ---
 spring:
   config:
