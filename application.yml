@@ -29,8 +29,8 @@ spring:
     type: redis
   data:
     redis:
-      host: otelpoc.redis.cache.windows.net
-      password: oOJBBDDnH44cZ8KtlCwunIY1A9Rd1FaOZAzCaLRKGAY=
+      host: nttdataotel.redis.cache.windows.net
+      password: Q4YuTHgiFUtrUtKCiLTsP3ITQnf9oaqosAzCaJP6Kkc=
 
 # Spring Boot 1.5 makes actuator secure by default
 management.security.enabled: false
